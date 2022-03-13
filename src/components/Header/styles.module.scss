@@ -1,0 +1,24 @@
+@import "../../styles/import.scss";
+
+.container {
+  display: flex;
+  padding: $padding6 $padding4;
+  border-bottom: 1px solid $yellow300;
+  .contaienrMenu {
+    cursor: pointer;
+    svg {
+      width: 20px;
+      height: 20px;
+      color: $yellow600;
+    }
+  }
+  .containerTitle {
+    flex-grow: 1;
+    text-align: center;
+    h3 {
+      color: transparent;
+      background-clip: text;
+      background-image: linear-gradient(to right, $yellow300, $yellow600);
+    }
+  }
+}

@@ -1,0 +1,96 @@
+/* colors */
+
+//blue
+
+$blue600: #2b6cb0;
+$blue500: #3182ce;
+$blue400: #4299e1;
+$blue300: #63b3ed;
+$blue200: #90cdf4;
+
+//purple
+
+$purple700: #553c9a;
+$purple600: #6b46c1;
+$purple500: #805ad5;
+$purple400: #9f7aea;
+$purple300: #b794f4;
+$purple200: #d6bcfa;
+
+$black: #000000;
+$white: #ffffff;
+
+//gray
+
+$gray800: #1a202c;
+$gray700: #2d3748;
+$gray600: #4a5568;
+$gray500: #718096;
+$gray400: #a0aec0;
+$gray300: #cbd5e0;
+$gray200: #e2e8f0;
+
+//red
+
+$red600: #c53030;
+$red500: #e53e3e;
+$red400: #f56565;
+$red300: #fc8181;
+$red200: #feb2b2;
+$red100: #fed7d7;
+
+//yellow
+$yellow600: #b7791f;
+$yellow500: #d69e2e;
+$yellow400: #ecc94b;
+$yellow300: #f6e05e;
+$yellow100: #fefcbf;
+
+/* mixins */
+
+@mixin for-phone-only {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin for-tablet-landscape {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-up {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) {
+    @content;
+  }
+}
+
+// fonts
+
+$fontMont: "Montserrat", sans-serif;
+$fontSource: "Source Sans Pro", sans-serif;
+
+/* padding */
+
+$padding2: 2px;
+$padding4: 4px;
+$padding6: 6px;
+$padding8: 8px;
+$padding10: 10px;
+$padding12: 12px;
+$padding14: 14px;
+$padding16: 16px;
+$padding18: 18px;
+$padding20: 20px;

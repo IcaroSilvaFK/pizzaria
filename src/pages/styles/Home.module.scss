@@ -1,0 +1,80 @@
+@import "../../styles/import.scss";
+
+@include for-phone-only {
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.e-konomista.pt%2Fuploads%2F2020%2F03%2Fpizza-bimby-.jpg&f=1&nofb=1");
+    .containerContent {
+      width: 100%;
+      .containerForm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: $white;
+        border-bottom-right-radius: 40px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .containerFormColumn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            div {
+              div {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.e-konomista.pt%2Fuploads%2F2020%2F03%2Fpizza-bimby-.jpg&f=1&nofb=1");
+  .containerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $white;
+    padding: 50px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 2px 2px 5px $yellow300;
+    .containerForm {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .containerFormColumn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

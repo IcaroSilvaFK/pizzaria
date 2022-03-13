@@ -1,0 +1,36 @@
+@import "../../styles/import.scss";
+
+@include for-phone-only {
+  .container {
+    display: none;
+    position: inherit;
+  }
+}
+.container {
+  border-radius: 5px;
+  display: flex;
+  width: 250px;
+  height: 50px;
+  background-color: $red200;
+  color: $gray800;
+  padding: $padding4;
+  position: absolute;
+  right: -208px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5px $gray500;
+  text-align: center;
+  div {
+    p {
+      color: $gray800;
+    }
+  }
+  svg {
+    position: absolute;
+    left: -18px;
+    width: 30px;
+    height: 30px;
+    color: $red200;
+  }
+}

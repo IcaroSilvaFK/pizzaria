@@ -1,0 +1,39 @@
+@import "../../styles/import.scss";
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: $padding8;
+  border: 3px dashed $gray400;
+  margin-top: 20px;
+
+  .containerTitle {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .containerTitleBody {
+    padding: $padding8;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .containerBody {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .containerRow {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+  .containerButton {
+    padding: $padding8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

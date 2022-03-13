@@ -1,0 +1,29 @@
+@import "../../styles/import.scss";
+
+.container {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  .containerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: dashed 5px $gray400;
+    border-radius: 10px;
+    padding: $padding20;
+    color: $gray400;
+    h3 {
+      text-align: center;
+    }
+    svg {
+      width: 35px;
+      height: 35px;
+      color: $gray400;
+    }
+  }
+}

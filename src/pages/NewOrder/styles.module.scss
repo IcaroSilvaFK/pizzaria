@@ -1,0 +1,16 @@
+@import "../../styles/import.scss";
+
+.container {
+  width: 100%;
+  height: 100%;
+  .containerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
